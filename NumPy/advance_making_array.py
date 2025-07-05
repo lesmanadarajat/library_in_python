@@ -1,6 +1,4 @@
 import numpy as np
-import os
-os.system('cls' if os.name == 'nt' else 'clear')
 
 # membuat matrix dengan tipe data bebas (x)
 a = np.array(([1,0,3], [4,5,6]), dtype = bool)
