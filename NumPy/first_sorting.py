@@ -1,6 +1,4 @@
 import numpy as np
-import os
-os.system('cls' if os.name == 'nt' else 'clear')
 
 a = np.floor(np.random.randn(1,9))*7  # <-- floor merubah ke int
 print(a)
