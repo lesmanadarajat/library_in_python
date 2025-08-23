@@ -13,3 +13,4 @@ print(f'ini tail\n{read_data.tail()}')
 print(read_data.info())
 
 print(pd.options.display.max_rows)
+
