@@ -1,0 +1,71 @@
+{
+  "scientists": [
+    {
+      "id": 1,
+      "name": "Albert Einstein",
+      "born": "1879-03-14",
+      "died": "1955-04-18",
+      "fields": ["Physics", "Mathematics"],
+      "notable_works": [
+        "Theory of Relativity",
+        "Photoelectric Effect"
+      ],
+      "nobel_prize": {
+        "year": 1921,
+        "category": "Physics",
+        "reason": "For his discovery of the law of the photoelectric effect"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Marie Curie",
+      "born": "1867-11-07",
+      "died": "1934-07-04",
+      "fields": ["Physics", "Chemistry"],
+      "notable_works": [
+        "Research on radioactivity",
+        "Discovery of Polonium and Radium"
+      ],
+      "nobel_prize": [
+        {
+          "year": 1903,
+          "category": "Physics",
+          "reason": "For joint researches on the radiation phenomena"
+        },
+        {
+          "year": 1911,
+          "category": "Chemistry",
+          "reason": "For the discovery of Radium and Polonium"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Isaac Newton",
+      "born": "1643-01-04",
+      "died": "1727-03-31",
+      "fields": ["Physics", "Mathematics", "Astronomy"],
+      "notable_works": [
+        "Principia Mathematica",
+        "Law of Universal Gravitation"
+      ],
+      "nobel_prize": null
+    },
+    {
+      "id": 4,
+      "name": "Nikola Tesla",
+      "born": "1856-07-10",
+      "died": "1943-01-07",
+      "fields": ["Electrical Engineering", "Physics", "Invention"],
+      "notable_works": [
+        "Alternating Current (AC) System",
+        "Tesla Coil",
+        "Wireless Power Transmission"
+      ],
+      "nobel_prize": null
+    }
+  ],
+  "total_scientists": 4,
+  "last_update": "2025-08-24T13:00:00+07:00",
+  "source": "Historical Records & Nobel Foundation"
+}
