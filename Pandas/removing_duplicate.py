@@ -1,11 +1,12 @@
 import pandas as pd
 
-health = pd.read_csv('health_data.csv')
-# print(health.to_string())
+data = pd.read_csv('health_data.csv')
+# print(data.to_string())
 
-print(health.duplicated())
+print(data.duplicated())
 
-health.drop_duplicates(inplace = True)
+data.drop_duplicates(inplace = True)
 
-print(health.to_string())
-print(health.duplicated())
+print(data.to_string())
+
+print(data.duplicated())
