@@ -22,4 +22,5 @@ plt.plot(y_3, ls = ':', marker = '*')
 plt.plot(y_4, ls = '-', marker = 's')
 plt.plot(y_5, ls = ' ', marker = '^')
 plt.plot(y_6, ls = 'None', marker = 'p')
+
 plt.show()
